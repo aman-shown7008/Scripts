@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TKSObjects>
+  <TKSObject TKSObjectType="TKSWebEdit">
+    <Conditions Logic="OR">	
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="input" />
+        <Property Name="type" Value="search|text" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="textarea" />
+        <Property Name="data-automation-id" Value="textAreaField|description" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="textarea" />
+        <Property Name="data-automation-id" Value="623f971149831018c1cd9246ecf30000" />
+      </Condition>
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="div"/>
+        <Property Name="data-automation-id" Value="textInput|dateTimeWidget|numericWidget|userName|password|currencyWidget|richTextEditor" />
+      </Condition>	    
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebList">
+    <Conditions Logic="OR">
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="data-automation-id" Value="responsiveMonikerInput|selectWidget|monikerListSuggestionsInput|multiSelectContainer|formfield-countrydropdown|formfield-phone-device-type|formfield-country-phone-code|formfield-startdate|formfield-enddate|formfield-degree|formfield-field-of-study|formfield-certification-issue-date|formfield-certification-expiration-date|formfield-veteranstatus|formfield-language|formfield-todaysdate|multiselectinputcontainer" />
+      </Condition>	
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="role" Value="group" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="dir" Value="ltr" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="li" />
+        <Property Name="data-automation-id" Value="menuitem" />
+      </Condition>	
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="button" />
+        <Property Name="type" Value="button" />
+      </Condition>	 
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="role" Value="button" />
+      </Condition>	  
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebButton">
+    <Conditions Logic="OR">
+	  <Condition Logic="AND">
+        <Property Value="button" Name="tagName"/>
+        <Property Value="linkButton|button|cardButton|bannerCloseButton|Current_User|wd_header_home_icon|notification_preview|inbox_preview|bottom-navigation-back-button|bottom-navigation-next-button|add|add another" Name="data-automation-id"/>
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="button" />
+        <Property Name="title" Value="Edit|Undo|Save" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="button" />
+        <Property Name="aria-label" Value="Add Languages|Add Work Experience|Add Education|Add Certifications|Add Websites|Add Another Websites|Add Another Languages|Add Another Work Experience|Add Another Education|Add Another Certifications" />
+      </Condition>
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="title" Value="Back|Export to Excel|View printable version (PDF)" />
+      </Condition>
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="data-automation-id" Value="chartButton|zoomOut|zoomIn|orgChartUpArrow|orgChartDownArrow|inbox-task-view-star-icon|searchInputSearchIcon" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="li" />
+        <Property Name="data-automation-id" Value="announcementExpandedItem|taskOrchMegaNavBarListItem" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="span" />
+        <Property Name="role" Value="button" />
+      </Condition>
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebCheckBox">
+    <Conditions Logic="OR">
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div"/>
+        <Property Name="data-automation-id" Value="checkboxPanel|formField-formField-preferredNameCheckbox|formField-formField-currentlyWorkHere|formField-formField-nativeLanguage|formField-formField-agreementCheckbox" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div"/>
+        <Property Name="role" Value="cell" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="input"/>
+        <Property Name="type" Value="checkbox" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div"/>
+        <Property Name="class" Value="css-s6y1lp-CheckboxContainer ek9ue960|css-1j98vf0" />
+      </Condition>
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebLink">
+    <Conditions Logic="OR">
+      <Condition Logic="">
+        <Property Name="tagName" Value="A" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="role" Value="link" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="span" />
+        <Property Name="role" Value="link" />
+      </Condition>
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebTabStrip">
+    <Conditions Logic="OR">
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="ul" />
+        <Property Name="data-automation-id" Value="tabBar" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="ul" />
+        <Property Name="class" Value="WPBV|WMY1|WKIV" />
+      </Condition>
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebElement">
+    <Conditions Logic="OR">
+	   <Condition Logic="">
+        <Property Name="tagName" Value="label" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="data-automation-id" Value="profileHeaderItemTitle" />
+      </Condition>
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebImage">
+    <Conditions Logic="OR">
+	 <Condition Logic="AND">
+        <Property Name="tagName" Value="img" />
+        <Property Name="class" Value="gwt-Image WPBQ WF5 WMBQ|gwt-Image WFMQ WI5 WCMQ|gwt-Image WFMQ WH5 WCMQ|gwt-Image WFMQ WI5 WGMQ WBMQ WCMQ WK0W|gwt-Image WHMQ WI5 WEMQ" />
+     </Condition>
+	 <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="class" Value="WJ1F" />
+      </Condition>
+	 <Condition Logic="AND">
+        <Property Name="tagName" Value="img" />
+        <Property Name="role" Value="button" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="data-automation-id" Value="orgChartItem" />
+      </Condition>
+    </Conditions> 
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebRadioGroup">
+    <Conditions Logic="OR">
+      <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="role" Value="radiogroup" />
+      </Condition>
+	  <Condition Logic="AND">
+        <Property Name="tagName" Value="div" />
+        <Property Name="data-automation-id" Value="previousWorker"/>
+      </Condition>	  
+    </Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebTable">
+		<Conditions Logic="OR">
+		    <Condition Logic="AND">
+				<Property Name="tagName" Value="div" />
+				<Property Name="data-automation-id" Value="rivaWidget"/>
+		    </Condition>
+			<Condition Logic="AND">
+				<Property Name="tagName" Value="div" />
+				<Property Name="data-automation-id" Value="VisibleGrid|gridContainer" />
+			</Condition>	
+							
+		</Conditions>
+  </TKSObject>
+  <TKSObject TKSObjectType="TKSWebFile">
+		<Conditions Logic="OR">
+			<Condition Logic="AND">
+			<Property Name="tagName" Value="div"/>
+			<Property Name="data-automation-id" Value="dragDropTarget|file-upload-drop-zone" />
+		  </Condition>
+		  <Condition Logic="AND">
+			<Property Name="tagName" Value="button" />
+			<Property Name="title" Value="Attach" />
+		  </Condition>
+		  <Condition Logic="AND">
+			<Property Name="tagName" Value="li" />
+			<Property Name="data-automation-id" Value="uploadRow" />
+		  </Condition>
+		  <Condition Logic="AND">
+			<Property Name="tagName" Value="div" />
+			<Property Name="data-automation-id" Value="uploadFileNameLabel" />
+		  </Condition>
+	 </Conditions>
+  </TKSObject>
+ </TKSObjects>
+ 
+ 
